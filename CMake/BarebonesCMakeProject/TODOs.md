@@ -1,0 +1,1 @@
+1. Put Scripts in a separate folder, i.e. BashScripts and PowerShellScripts
