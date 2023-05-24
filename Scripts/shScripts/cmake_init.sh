@@ -1,6 +1,8 @@
-# Create a directory named "build" in the current directory, suppressing error message if it already exists
 originalDir="$(pwd)"
 bashDir="$(dirname -- $BASH_SOURCE)"
+
+$bashDir/updateSourceList.sh    # Not tested
+
 cd "${bashDir}/.."
 
 mkdir -p ./build

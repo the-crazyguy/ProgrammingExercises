@@ -91,7 +91,7 @@ Write-Output "Project $projectName successfully created at $projectPath"
 
 if ($openInVsCode -eq $true)
 {
-   Start-Process code $projectPath
+   Start-Process -WindowStyle Hidden code $projectPath
 }
 
 Set-Location $originalDir

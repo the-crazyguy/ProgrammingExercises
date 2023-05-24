@@ -7,6 +7,6 @@ cd "${bashDir}"
 
 ./updateSourceList.sh
 ./build.sh
-./buildAndRun.sh
+./run.sh
 
 cd "${originalDir}"

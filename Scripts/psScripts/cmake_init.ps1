@@ -1,3 +1,5 @@
+& $PSScriptRoot/updateSourceList.ps1
+
 $originalDir = $PWD
 Set-Location $PSScriptRoot/..
 
