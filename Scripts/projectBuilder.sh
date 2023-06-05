@@ -38,9 +38,9 @@ else
     exit 1
 fi
 
-if [[ ! "$scriptType" =~ "[wlb]" ]]
+if [[ "$scriptType" =~ "[wlb]" ]]
     then
-    echo "Invalid script type"
+    echo "Invalid script type $scriptType"
     exit 1
 fi
 
@@ -49,10 +49,10 @@ psScriptSourcePath="./psScripts"
 shScriptSourcePath="./shScripts"
 cmakeTemplatePath="./CMakeLists.txt"
 
-if [[ $projectPath = ".*" ]]
+if [[ $projectPath = ".*" ]] || [[ $projectPath = "." ]]
     then
     # Relative path, turn to absolute
-    projectPath="$(pwd)/$projectPath"
+    projectPath="$originalDir/$projectPath"
 fi
 
 projectPath="$projectPath/$projectName"
