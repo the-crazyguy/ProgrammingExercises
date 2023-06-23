@@ -6,6 +6,8 @@ set(CXX_STANDARD_REQUIRED True)
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 add_executable(${PROJECT_NAME})
 include(sourceList)
 

@@ -14,4 +14,4 @@ $projectName = $Matches[0]
 # Note: Set-Location is reverted so that terminating the executable does not leave the user in an unwanted directory
 Set-Location $originalDir
 # Note: If the executable's name is different from the project name, replace $projectName with the proper name
-& $PSScriptRoot/../build/Debug/$projectName.exe
+& $PSScriptRoot/../build/$projectName.exe

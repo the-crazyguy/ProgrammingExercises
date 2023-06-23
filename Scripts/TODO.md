@@ -1,0 +1,6 @@
+- [ ] Add support for build flags
+    - Reference: 
+        - https://cmake.org/cmake/help/latest/prop_sf/COMPILE_DEFINITIONS.html#prop_sf:COMPILE_DEFINITIONS
+        - https://cmake.org/cmake/help/latest/prop_sf/COMPILE_OPTIONS.html#prop_sf:COMPILE_OPTIONS
+- [ ] Add debug script
+- [ ] Update Scripts script

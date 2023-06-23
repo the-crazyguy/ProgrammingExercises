@@ -10,6 +10,7 @@ if ($args.Count -eq 0)
     $projectName = Read-Host -Prompt "Project name"
     $projectPath = Read-Host -Prompt "Project path"
     $scriptType = Read-host -Prompt "Scripts for (Linux = l, Windows = w, Both = b)"
+    #TODO: Open vs code prompt
 }
 elseif ($args.Count -eq 3)
 {
